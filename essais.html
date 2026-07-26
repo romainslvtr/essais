@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Essais — Romain Salvatore</title>
+<meta name="description" content="L’ensemble des essais, classés par thème.">
+<meta property="og:title" content="Essais — Romain Salvatore">
+<meta property="og:description" content="L’ensemble des essais, classés par thème.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23F6F0E4'/%3E%3Ctext x='50' y='67' font-family='Georgia,serif' font-size='54' fill='%231F3350' text-anchor='middle'%3ERS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html">Romain Salvatore</a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a href="essais.html" class="active">Essais</a>
+      <a href="a-propos.html">À propos</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <svg width="22" height="16" viewBox="0 0 22 16" fill="none"><path d="M0 1H22M0 8H22M0 15H22" stroke="currentColor" stroke-width="1.4"/></svg>
+    </button>
+  </div>
+  <div class="mobile-nav wrap">
+    <a href="index.html">Accueil</a>
+      <a href="essais.html" class="active">Essais</a>
+      <a href="a-propos.html">À propos</a>
+  </div>
+</header>
+<main>
+<div class="page-head">
+  <div class="wrap">
+    <h1>Essais</h1>
+    <p class="dek">Les essais publi&eacute;s appara&icirc;tront ici, par ordre chronologique &mdash; filtrables par th&egrave;me.</p>
+  </div>
+</div>
+<div class="wrap">
+  <div class="filter-bar" role="group" aria-label="Filtrer par th&egrave;me">
+    <button class="filter-btn active" data-cat="tous" aria-pressed="true">Tous</button>
+    <button class="filter-btn" data-cat="philosophie" aria-pressed="false">Philosophie</button>
+    <button class="filter-btn" data-cat="technologie" aria-pressed="false">Technologie</button>
+    <button class="filter-btn" data-cat="societe" aria-pressed="false">Société</button>
+    <button class="filter-btn" data-cat="ethique" aria-pressed="false">Éthique</button>
+    <button class="filter-btn" data-cat="culture" aria-pressed="false">Culture</button>
+  </div>
+  <div class="essay-list" id="all-essays">
+  <a class="essay-entry" href="faut-il-violer-les-violeurs.html" data-cat="ethique" data-date="2026-07-25">
+    <div class="essay-meta">
+      <span class="cat-tag" style="--cat-color:var(--cat-ethique)">Éthique</span>
+      <span>25 juillet 2026</span>
+      <span>11 min de lecture</span>
+    </div>
+    <h3 class="essay-title">Faut-il violer les violeurs&nbsp;?</h3>
+    <p class="essay-excerpt">La loi vient de durcir les peines pour viol de mineur. Mais pénaliser davantage un crime horrible change-t-il quelque chose&nbsp;? Un prétexte pour parler de carcéralisme, de dissuasion, et de ce que la prison fait réellement.</p>
+    <span class="essay-read">Lire l&rsquo;essai &rarr;</span>
+  </a>
+  <a class="essay-entry" href="chien-extraterrestre-universaux.html" data-cat="philosophie" data-date="2026-07-17">
+    <div class="essay-meta">
+      <span class="cat-tag" style="--cat-color:var(--cat-philosophie)">Philosophie</span>
+      <span>17 juillet 2026</span>
+      <span>10 min de lecture</span>
+    </div>
+    <h3 class="essay-title">Le problème du chien et de l’extraterrestre</h3>
+    <p class="essay-excerpt">Il y a un sujet qui m’a effrayé à l’université autant qu’il m’a passionné et peut-être que c’est également le cas d’autres étudiants de philosophie&nbsp;: &laquo;&nbsp;la querelle des universaux&nbsp;&raquo;. D’abord parce que j’ai mis presque un an et demi à comprendre réellement de quoi il était question.</p>
+    <span class="essay-read">Lire l&rsquo;essai &rarr;</span>
+  </a>
+  <a class="essay-entry" href="la-science-climatiseurs.html" data-cat="philosophie" data-date="2026-07-16">
+    <div class="essay-meta">
+      <span class="cat-tag" style="--cat-color:var(--cat-philosophie)">Philosophie</span>
+      <span>16 juillet 2026</span>
+      <span>9 min de lecture</span>
+    </div>
+    <h3 class="essay-title">La science est-elle contre les climatiseurs ?</h3>
+    <p class="essay-excerpt">Il a fait très chaud en juin 2026, une chaleur inhabituelle pour un pays comme la France. Cela a provoqué une ruée vers un objet devenu presque indispensable&nbsp;: la climatisation, et une phrase revenue partout&nbsp;: &laquo;&nbsp;la science dit qu’il ne faut pas l’utiliser&nbsp;&raquo;.</p>
+    <span class="essay-read">Lire l&rsquo;essai &rarr;</span>
+  </a>
+  <a class="essay-entry" href="philosophie-morte-aujourdhui.html" data-cat="philosophie" data-date="2026-07-13">
+    <div class="essay-meta">
+      <span class="cat-tag" style="--cat-color:var(--cat-philosophie)">Philosophie</span>
+      <span>13 juillet 2026</span>
+      <span>7 min de lecture</span>
+    </div>
+    <h3 class="essay-title">La philosophie est-elle morte aujourd’hui ?</h3>
+    <p class="essay-excerpt">Bertrand Russell définit la philosophie comme un territoire intellectuel situé entre la science et la théologie. La science cherche à établir des connaissances fondées sur des preuves, toujours susceptibles d’être remises en question.</p>
+    <span class="essay-read">Lire l&rsquo;essai &rarr;</span>
+  </a>
+  <a class="essay-entry" href="eternel-etudiant.html" data-cat="philosophie" data-date="2026-07-12">
+    <div class="essay-meta">
+      <span class="cat-tag" style="--cat-color:var(--cat-philosophie)">Philosophie</span>
+      <span>12 juillet 2026</span>
+      <span>8 min de lecture</span>
+    </div>
+    <h3 class="essay-title">L’éternel étudiant : comment j’ai cessé d’exister après l’université</h3>
+    <p class="essay-excerpt">Mon diplôme de philosophie est toujours à l’université. Je ne suis jamais allé le chercher. Non pas parce que je l’ai oublié, mais parce qu’en un an personne ne m’a demandé de prouver que je l’avais obtenu.</p>
+    <span class="essay-read">Lire l&rsquo;essai &rarr;</span>
+  </a>
+  <p class="empty-state">Aucun essai dans cette cat&eacute;gorie pour le moment.</p>
+  </div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap bar">
+    <div class="foot-left">&copy; 2026 <strong>Romain Salvatore</strong> &mdash; essais &amp; recherches</div>
+    <div class="foot-sig">&laquo;&nbsp;je cherche &agrave; comprendre quelque chose&nbsp;&raquo;</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
